@@ -2,6 +2,54 @@
   <img src="Simple.png" width="600" title="Used">
 </p>
 
+### Frizz subinfo ### 
+
+Version -> 0.0.1 (BETA)
+
+# What is frizz 
+
+Frizz is a newer more modern NFAT with multiple features! Being new to the game frizz can do many things but mainly sides with offensive security experts. Frizz does not just decode layers but decodes layers for specific information such as credentials, base64 and base32 logins, usernames, emails,
+email chats, phone numbers, dial information, HTTP information and much more amongst that list. Frizz uses a series of regular expression algorithms along with the side of raw decoders in both C++ and Go to decode information that will be wanted by an everyday user. Frizz is not like any other NFAT where it just will output information on a terminal, or output it to a XML, JSON even CSV file but with the power of crystal starts a local HTTP server filled of indexes and HTML files holding the information that was parsed even providing analytics on that section. Frizz is super fast and even allows the user to input a list of directories to pcap files for example 
+
+```
+example/path/to/pcap/pcap0cap
+example/path/to/pcap/pcap6pcap
+example/path/to/pcap/pcap5pcap
+example/path/to/pcap/pcap4pcap
+example/path/to/pcap/pcap3pcap
+example/path/to/pcap/pcap2pcap
+example/path/to/pcap/pcap1pcap
+```
+
+and will mash all of the packets into one file and parse them all at once. With tools like this in beta already frizz is for sure to give you a fun experience
+
+# Comming soon 
+
+Frizz will after beta come with new features such as network parsers, the ability to export data in XML, HTML, JSON, YAML etc formats, view images, decode images and check for viruses or check for certain signatures in files, use the browser to automate certain network data and may even use databases such as Phone code, IP code, MAC address ( OUI ) and even port and service databases to test the true sense of a host or address. 
+
+Frizz will soon be a monitized program with features like that, however with the features and everything that will come with it it is certainly worth the money you will pay for it! Of course this is later on and the more you get into it the more complex the program will be. But it is for sure worth it!
+
+
+
+# Supported protocols 
+
+| Protocol | Decoding form | 
+| -------- | ------------- | 
+| IMAP     | Payload |
+| SMTP     | Payload | 
+| FTP      | Decoder | 
+| ARP      | Decoder |
+| ETHERNET | Decoder | 
+| HTTP     | Decoder | 
+| Dot11    | Decoder | 
+| UDP      | Decoder | 
+| Telnet   | Decoder |
+| SIP      | Decoder | 
+
+
+# Features 
+
+
 
 
 
