@@ -143,5 +143,6 @@ This project was almost a direct inspiration from apackets. I felt with how clos
 # Future pricing 
 
 | Price | License grade | Features | 
+| ----- | ------------- | -------- | 
 | $10 USD per month | basic | has extra features, allows data format exporting, more faster and better designed web interface, better and more accurate databases, more protocol support | 
 | $20 USD per month | premium | Full features including geo databases, OUI databases, access to certain whois tools, access to CVE search tools using offline databases, management tools, full customization to the web interface, more access over protocol and data information, more accurate data analytics etc | 
