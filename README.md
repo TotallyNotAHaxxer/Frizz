@@ -126,3 +126,15 @@ This project was almost a direct inspiration from apackets. I felt with how clos
 | Older and less stable | More modern and appealing | 
 | No signature checking, older databases of OUI's etc | Constantly updated port service names databases, OUI databases, signature databases for either payloads or regex to verify certain packet signatures | 
 | Not so specific for data | Has tabs specified for certain information such as SIP invites, SSH messages and codes, FTP messgaes and code, certain authentication, statistics, HTTP parts, hostnames, servers, ports, POP3 IP's, MACS, Emails, To and FROM | 
+
+
+# Implimentation 
+
+| Feature to impliment in other versions | Paid or no | Description | 
+| -------------------------------------- | ---------- | ----------- | 
+| Export data in XML, HTML, JSON and YAML | No | Allows the user to export certain data as XML, JSON, HTML table, YAML or even CSV in the further future 
+| Databases such as GEO-IP, GEO-MAC, MAC_OUI, Phone region, Net info, Port | Yes and no | Some of these databases will be implimneted for free but will not have full use ability unless the license is free | 
+| File checks | Yes | When a file is downloaded, reconstructed or re wired from certain images and certain points this will need to be paid for, basically this feature will take those same files and scan the files for a few things such as its header, viruses, hidden files such as archive files, hidden messages, base64 encoded strings, base32 encoded strings, AES encoded strings etc | 
+| Geo MAP of all connections or geoIPs | yes | this is a feature that will be supper hard to impliment given the JS needed will need to be pre generated so will the phone numbers and logos, however this can still easily be done but will be a paid feature due to the work | 
+| WHOIS, Geo etc online and offline tools | yes | this will be a paid for feature because it gives the user access to premium whois tools which will drop very valuable information using certain engines and even custom made libraries like geo location, records, domain records, base records, ip information etc | 
+| Email and other various data parsing databases | yes and no | throughout the entire program i want to impliment something that will make people go wow and to do that i will be implimenting some email checking databases but will only leave certain more accurate email, phone number, IP, mac etc databases up to premium users
