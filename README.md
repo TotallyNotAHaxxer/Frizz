@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Example.png" width="350" title="Used">
+  <img src="Simple.png" width="350" title="Used">
 </p>
 
 
