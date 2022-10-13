@@ -1,13 +1,64 @@
-=<p align="center">
-  <img src="Logo.png" width="350" title="Logo">
+<p align="center">
+  <img src="Example.png" width="350" title="Used">
 </p>
 
 
-# About 
 
-Firzz is an open sourced packet parsing tool for penetration testers and digital forensics experts alike. Currently frizz uses the crystal programming language to back its servers while having a neat and extremely performant C++ and Go backend. It can parse many protocols from HTTP ( GET, POST, HOST, USERAGENTS ) to ETHERNET to even POP3. Frizz mainly focuses on finding sensative information such as emails, email conversations, ftp sessions, session logins, get requests and authorization requests, device and information while also providing you with options to view firzz's entire json database. Along with the amazing web interface there is also a neat little feature which allows you to view server information, current stats, hardware information etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Comparing 
+
+
 
 This project was almost a direct inspiration from apackets. I felt with how closed sourced and over priced apackets were for its minimal features i can do better and charge less while also partly making it open source. Here is a simple compare of apackets to frizz 
 
