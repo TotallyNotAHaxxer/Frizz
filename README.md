@@ -138,3 +138,10 @@ This project was almost a direct inspiration from apackets. I felt with how clos
 | Geo MAP of all connections or geoIPs | yes | this is a feature that will be supper hard to impliment given the JS needed will need to be pre generated so will the phone numbers and logos, however this can still easily be done but will be a paid feature due to the work | 
 | WHOIS, Geo etc online and offline tools | yes | this will be a paid for feature because it gives the user access to premium whois tools which will drop very valuable information using certain engines and even custom made libraries like geo location, records, domain records, base records, ip information etc | 
 | Email and other various data parsing databases | yes and no | throughout the entire program i want to impliment something that will make people go wow and to do that i will be implimenting some email checking databases but will only leave certain more accurate email, phone number, IP, mac etc databases up to premium users
+
+
+# Future pricing 
+
+| Price | License grade | Features | 
+| $10 USD per month | basic | has extra features, allows data format exporting, more faster and better designed web interface, better and more accurate databases, more protocol support | 
+| $20 USD per month | premium | Full features including geo databases, OUI databases, access to certain whois tools, access to CVE search tools using offline databases, management tools, full customization to the web interface, more access over protocol and data information, more accurate data analytics etc | 
