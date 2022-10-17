@@ -4,50 +4,57 @@
 
 ### Frizz subinfo ### 
 
-Version -> 0.0.1 (BETA)
+> Version: 0.0.1 (BETA)
+> Languages: C++, Crystal, Go 
+> Operating systems: Linux
+> File support: Cap, Pcap, Pcapng
+> Features: 34 
 
-# What is frizz 
+# What exactly is frizz
 
-Frizz is a newer more modern NFAT with multiple features! Being new to the game frizz can do many things but mainly sides with offensive security experts. Frizz does not just decode layers but decodes layers for specific information such as credentials, base64 and base32 logins, usernames, emails,
-email chats, phone numbers, dial information, HTTP information and much more amongst that list. Frizz uses a series of regular expression algorithms along with the side of raw decoders in both C++ and Go to decode information that will be wanted by an everyday user. Frizz is not like any other NFAT where it just will output information on a terminal, or output it to a XML, JSON even CSV file but with the power of crystal starts a local HTTP server filled of indexes and HTML files holding the information that was parsed even providing analytics on that section. Frizz is super fast and even allows the user to input a list of directories to pcap files for example 
+Well many things can describe frizz, mainly frizz is a NFAT. Network Forensics Analysis Tool for pcap files. Frizz will take any pcap file and will purely generate information, parse through every single packet and generate an entire web interface where information is sorted out. Frizz is not for basic packet capturing more than it is for people who want to look for specific information. Despite frizz parsing layers such as Ethernet, ARP, SIP, HTTP, TCP etc it's main job is to parse information. Below is a table of what frizz trys to find.
 
-```
-example/path/to/pcap/pcap0cap
-example/path/to/pcap/pcap6pcap
-example/path/to/pcap/pcap5pcap
-example/path/to/pcap/pcap4pcap
-example/path/to/pcap/pcap3pcap
-example/path/to/pcap/pcap2pcap
-example/path/to/pcap/pcap1pcap
-```
+| Information, data, topics, etc | 
+| ------------------------------ | 
+| Emails |
+| Phone numbers | 
+| Useragents | 
+| Email chats | 
+| Email Cc lists | 
+| Email to | 
+| Email From | 
+| SSH passwords and authentication | 
+| Wifi OSPF authentication | 
+| SMTP authentication | 
+| POP3 authentication | 
+| IMAP authentication | 
+| FTP authentication | 
+| Telnet sessions | 
+| FTP sessions | 
+| SSH sessions | 
+| POP3 sessions |
+| SMTP sessions |
+| IMAP sessions | 
+| HTTP POST | 
+| HTTP GET | 
+| TCP | 
+| ETHERNET | 
+| Wifi | 
+| SIP invites |
+| SIP codes | 
+| HTTP URL's | 
+| Base64 encodings | 
+| Base32 encodings | 
+| File types | 
+| Files and source code extensions | 
 
-and will mash all of the packets into one file and parse them all at once. With tools like this in beta already frizz is for sure to give you a fun experience
+and much more along that list. Frizz also gives you handy information about the current server database such as the json files, json output, json parsers, lists, text files and even debugging logs for the server. Frizz even has a tab for hardware informations and documentation! 
 
-# Comming soon 
-
-Frizz will after beta come with new features such as network parsers, the ability to export data in XML, HTML, JSON, YAML etc formats, view images, decode images and check for viruses or check for certain signatures in files, use the browser to automate certain network data and may even use databases such as Phone code, IP code, MAC address ( OUI ) and even port and service databases to test the true sense of a host or address. 
-
-Frizz will soon be a monitized program with features like that, however with the features and everything that will come with it it is certainly worth the money you will pay for it! Of course this is later on and the more you get into it the more complex the program will be. But it is for sure worth it!
+The cool thing about frizzed is that it even allows you to take a giant list of pcap files, mash them together into one giant file, parse them and load them together. This makes it easier for you to parse thousands and thousands of lines of code without having to manually open them or create a masher yourself. Frizz can even be run offline, as long as there is a possible connection to your localhost you are fine.
 
 
+# Beta notes 
 
-# Supported protocols 
-
-| Protocol | Decoding form | 
-| -------- | ------------- | 
-| IMAP     | Payload |
-| SMTP     | Payload | 
-| FTP      | Decoder | 
-| ARP      | Decoder |
-| ETHERNET | Decoder | 
-| HTTP     | Decoder | 
-| Dot11    | Decoder | 
-| UDP      | Decoder | 
-| Telnet   | Decoder |
-| SIP      | Decoder | 
-
-
-# Features 
 
 
 
