@@ -55,6 +55,8 @@ The cool thing about frizzed is that it even allows you to take a giant list of 
 
 # Beta notes 
 
+Frizz aims to be different. While having an amazing frontend and a well written and secure background there are still many issues with the current version. However this is a Beta only tool and is being improoved every single day with new logical systems. Frizz will not be the most nicest looking thing in the world however it strives to beat its competitors for both pricing and convenience. 
+
 
 
 
