@@ -29,6 +29,10 @@ Well many things can describe frizz, mainly frizz is a NFAT. Network Forensics A
 | POP3 authentication | 
 | IMAP authentication | 
 | FTP authentication | 
+| HTTP Basic authentication | 
+| HTTP NTLM authentication | 
+| HTTP Digest authentication | 
+| HTTP Negotiate authentication |
 | Telnet sessions | 
 | FTP sessions | 
 | SSH sessions | 
