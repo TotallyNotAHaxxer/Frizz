@@ -1,0 +1,19 @@
+init RPC templating
+    
+    {
+        (
+            [
+                RPC -> RPCL6_Count | RPC.BRICK => {{{
+                    RPC:::Unit::SYMBOL | RPC.BRICK START
+
+                      !!!-> rpcn 
+                                This is where the HTML code will be renedered by the engine
+                      !!!<-  
+
+                    RPC::Unit::SYMBOL | RPC.BRICK END
+                }}}
+            ]
+        )
+    }
+
+end RPC templating

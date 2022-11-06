@@ -1,0 +1,11 @@
+What NEEDS to be done on the backend
+
+- Documentation
+- DNS 
+- Open Ports
+- HTML parser and generator 
+- HTML files and design
+
+
+- Image information  ( not a high priority for the time being)
+- Downloaded images ( not a high priority for the time being)
