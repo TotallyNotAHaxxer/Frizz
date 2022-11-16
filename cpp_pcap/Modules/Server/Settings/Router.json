@@ -1,0 +1,5 @@
+{
+    "__COMMENT__": "[ This file defines the routers paths, in which will be called and their given paths ] ",
+    "/": "HTML/main.html",
+    "/example": "HTML/example.html"
+}

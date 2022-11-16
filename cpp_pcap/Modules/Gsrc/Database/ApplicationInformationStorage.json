@@ -1,0 +1,21 @@
+{
+    "ApplicationInformation": [
+        {
+            "Version": ".01 BETA",
+            "Name": "Frizz",
+            "Server Name": "CR_EXECUTEABLE",
+            "Application_Languages": "Go, Crystal, JSON, C++/C",
+            "Application_FileFormats": ".hpp, .go, .mod, .json, .css, .js, .json, .txt, .rpc(Radical Processing Language), .cr",
+            "Application_Security": "Decent | Secure",
+            "Application_Bugs": "Current bugs are all within overflow and some CSS issues other than that nothing to complain about for beta",
+            "Application_Tabs": "47",
+            "Application_Indexes": "39",
+            "Application_Protocols": "Ethernet, ARP, HTTP, Wifi, TCP, UDP, Bluetooth, POETH, SDP, SIP, RTP, SMTP, POP3, IMAP, FTP, SSH, TELNET",
+            "Application_Support": "Ethernet, ARP, HTTP, Wifi, TCP, SIP, IMAP, FTP, FTP, SSH, Telnet",
+            "Application_Binaries": "./capture, ./router, ./parser",
+            "Application_Run_Binary": "./router",
+            "Application_Run_Time": "Approx 2 seconds - 10 seconds MAX on a bad day",
+            "Application_Supported_File_Formats": "pcap, pcapng"
+        }
+    ]
+}
