@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="logo.png" width="600" title="frizz logo">
+  <img src="logo.png" width="300" title="frizz logo">
 </p>
