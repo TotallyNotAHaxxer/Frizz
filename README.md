@@ -18,7 +18,13 @@ frizz is a web interface based NFAT ( Network Forensics Analyitics Tool ) which 
 | Proto info | Ethernet and ARP | 
 | Dot11 Elements | OSPF Authentication, Radio tap, Probe requests |
 
-# installing crystal 
+# installing pcapplusplus [Required]
+
+```
+	git clone https://github.com/seladb/PcapPlusPlus.git ; cd PcapPlusPlus ; ./PcapPlusPlus/configure-linux.sh --default ; make ; make install ; rm -rf PcapPlusPlus
+```
+
+# installing crystal [Required]
 
 crystal is a programming language that is used to run the server, without crystal there is no server so there is no tool. install crystal with 
 
@@ -28,7 +34,7 @@ or
 
 https://crystal-lang.org/install/on_debian/
 
-# install frizz
+# install frizz [Required]
 
 `git clone https://github.com/ArkAngeL43/Frizz.git ; cd Frizz ; make all `
 
