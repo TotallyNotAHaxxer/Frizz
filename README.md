@@ -18,6 +18,28 @@ frizz is a web interface based NFAT ( Network Forensics Analyitics Tool ) which 
 | Proto info | Ethernet and ARP | 
 | Dot11 Elements | OSPF Authentication, Radio tap, Probe requests |
 
+# installing crystal 
+
+crystal is a programming language that is used to run the server, without crystal there is no server so there is no tool. install crystal with 
+
+`snap install crystal`
+
+or 
+
+https://crystal-lang.org/install/on_debian/
+
+# install frizz
+
+`git clone https://github.com/ArkAngeL43/Frizz.git ; cd Frizz ; make all `
+
+> Note: Frizz relies on the PcapPlusPlus and Gopacket packet capturing and parsing libraries. This means you must have libssl installed, libpcap, libc etc libs. Below is a command to install all of the required libs. you can run command `make libs` if you do not have the libs installed.
+
+once done making all files run 
+
+`./router pcapfile.pcap`
+
+replace pcapfile.pcap with you're desired pcap or pcapng file
+
 # How does frizz work 
 
 frizz uses many useful algorithms and techniques for parsing and figuring out what packets have inside of them. When you tell frizz to load a new packet capture or pcap file it will use a series of regular expressions, manual conditionals and a prediction technique to assume certain data. Frizz will take certain data such as credentials and load them through individal parsers to test the data string by payload to see what exactly it matches to. If it matches a Base64/32 encoding it will decode it and parse it off as a certain string such as HTTP MD5-Dige
