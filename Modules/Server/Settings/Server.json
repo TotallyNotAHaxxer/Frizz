@@ -1,0 +1,7 @@
+{
+    "Port": 5674,
+    "Name": "CR_SERVER",
+    "Host": "127.0.0.1",
+    "URL": "http://127.0.0.1:5674",
+    "Membership_Type": "BASIC_NO_KEY"
+}
