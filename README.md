@@ -22,11 +22,6 @@ frizz is a web interface based NFAT ( Network Forensics Analyitics Tool ) which 
 | Proto info | Ethernet and ARP | 
 | Dot11 Elements | OSPF Authentication, Radio tap, Probe requests |
 
-# installing pcapplusplus [Required]
-
-```
-	git clone https://github.com/seladb/PcapPlusPlus.git ; cd PcapPlusPlus ; ./PcapPlusPlus/configure-linux.sh --default ; make ; make install ; rm -rf PcapPlusPlus
-```
 
 # installing crystal [Required]
 
