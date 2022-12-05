@@ -12,7 +12,7 @@ frizz is a web interface based NFAT ( Network Forensics Analyitics Tool ) which 
 
 | Type and or title | Data element or list of data | 
 | ----------------- | ---------------------------- |
-| Authentication    | HTTP Digest/NTLM/BASIC/Negotiate, SMTP, FTP, SSH, IMAP | 
+| Authentication    | HTTP Digest/NTLM/BASIC/Negotiate, SMTP, FTP, SSH, IMAP, Telnet| 
 | User Information  | Email Cc/From/To/Inbox/recv/chats |
 | Session Information |  FTP sessions, SSH sessions, Telnet sessions, SMTP sessions | 
 | Server and App info | Server information, user hardware, databases used | 
@@ -48,6 +48,14 @@ replace pcapfile.pcap with you're desired pcap or pcapng file
 # How does frizz work 
 
 frizz uses many useful algorithms and techniques for parsing and figuring out what packets have inside of them. When you tell frizz to load a new packet capture or pcap file it will use a series of regular expressions, manual conditionals and a prediction technique to assume certain data. Frizz will take certain data such as credentials and load them through individal parsers to test the data string by payload to see what exactly it matches to. If it matches a Base64/32 encoding it will decode it and parse it off as a certain string such as HTTP MD5-Dige
+
+# Why frizz over something such as wireshark 
+
+Wireshark is an amazing tool and can be used for so many things. However maybe something that is easy to parse simple information without having to use filters and what not is just what you need. Also frizz will soon come with amazing local databases that will be able to find user information and other forms alike. Look at developer notes for more information 
+
+# News 
+
+https://medium.com/the-hacker-outpost/Frizz:-A-pcap-load-interface-de9f6dacad5
 
 # Developer notes about the framework 
 
