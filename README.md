@@ -77,7 +77,7 @@ https://medium.com/the-hacker-outpost/Frizz:-A-pcap-load-interface-de9f6dacad5
 # Demos 
 
 <p align="center">
-  <img src="1.png" width="200" title="frizz logo">
+  <img src="1.png" width="100%" title="frizz logo">
 </p>
 
 
