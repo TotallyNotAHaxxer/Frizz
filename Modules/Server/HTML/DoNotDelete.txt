@@ -1,0 +1,1 @@
+Do not delete the directory HTML. This directory is open purely for the server to find generated HTML files
