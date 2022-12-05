@@ -73,3 +73,7 @@ https://medium.com/the-hacker-outpost/Frizz:-A-pcap-load-interface-de9f6dacad5
 | Closed source | The paid version of frizz will be closed source but much more faster, responsive, nicer, cleaner and way more accurate with data information | 
 
 > Frizz is weird: Frizz has a weird code base and is mostly a mash or remake of other parsers such as the user agent parser. Frizz relies on external sources such as CDN's for charts and other things which does not make this a fully offline interface however you can still run it offline. A majority of the frizz project is decently designed but weirdly implimented but after all this is beta and beta desinges are wack. IF YOU PLAN TO READ SOURCE CODE READ THE NOTES DO NOT JUST IGNORE THEM.
+
+# Demos 
+
+
