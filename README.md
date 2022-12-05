@@ -76,9 +76,42 @@ https://medium.com/the-hacker-outpost/Frizz:-A-pcap-load-interface-de9f6dacad5
 
 # Demos 
 
+> Home page
+
 <p align="center">
   <img src="1.png" width="100%" title="frizz logo">
 </p>
+
+> Re upload pcap file 
+
+<p align="center">
+  <img src="2.png" width="100%" title="frizz logo">
+</p>
+
+> HTTP Useragent information 
+
+<p align="center">
+  <img src="3.png" width="100%" title="frizz logo">
+</p>
+
+> HTTP Hostname information
+
+<p align="center">
+  <img src="4.png" width="100%" title="frizz logo">
+</p>
+
+> ARP Information 
+
+<p align="center">
+  <img src="6.png" width="100%" title="frizz logo">
+</p>
+
+> IMAP Credentials 
+
+<p align="center">
+  <img src="8.png" width="100%" title="frizz logo">
+</p>
+
 
 
 
