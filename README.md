@@ -22,6 +22,7 @@ frizz is a web interface based NFAT ( Network Forensics Analyitics Tool ) which 
 | Proto info | Ethernet and ARP | 
 | Dot11 Elements | OSPF Authentication, Radio tap, Probe requests |
 
+Frizz is not only here to help you out with simple information but it also features a currently testing IDS for wifi names and SSID's. if a SSID pops up that is of a certain name, length etc it might be flagged for suspicous activity.
 
 # installing crystal [Required]
 
